@@ -1,0 +1,11 @@
+function main() {
+    var incrementar = parseInt(readLine(), 10);
+    var precios = [98.99, 15.2, 20, 1026];
+    //your code goes here
+    for (i = 0; i <precios.length; i++) {
+        precios[i] += incrementar;
+    }
+
+    console.log(precios);
+    
+}
