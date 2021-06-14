@@ -1,0 +1,15 @@
+function main() {
+    var depeth = pareseInt(readline(),10);
+    // Your code goes here
+    var dia = 0;
+    var total = 0;
+    while(total<depth){
+        dia = dia + 1;
+        total = total + 7;
+        if(total <= depeth){ 
+            console.log(dia);
+            break;
+        }
+        total = total - 2;    
+    }
+}
